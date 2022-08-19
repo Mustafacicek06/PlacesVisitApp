@@ -19,12 +19,47 @@ class AddPlaceViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        imageView.isUserInteractionEnabled = true
+        
+        let gestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(chooseImage))
+        
+        imageView.addGestureRecognizer(gestureRecognizer)
+        
+    }
+    @objc func chooseImage() {
+        let picker = UIImagePickerController()
+        // adding UIImagePickerControllerDelegate
+        picker.delegate = self
+        
+        picker.sourceType = .photoLibrary
+        
+        self.present(picker, animated: true, completion: nil)
+        
+    }
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+        imageView.image = info[.originalImage] as? UIImage
+        self.dismiss(animated: true)
     }
     
 
     @IBAction func nextButtonClicked(_ sender: Any) {
-        self.performSegue(withIdentifier: "toMapVC", sender: nil)
+        if placeNameText.text != "" && placeType.text != "" && placeAtmosphere.text != "" {
+            if let choosenImage = imageView.image {
+                let placeModel = PlaceModel.sharedInstance
+                
+                placeModel.placeName = placeNameText.text ?? ""
+                placeModel.placeType = placeType.text ?? ""
+                placeModel.placeAtmosphere = placeAtmosphere.text ?? ""
+                placeModel.placeImage = choosenImage
+            }
+            
+            self.performSegue(withIdentifier: "toMapVC", sender: nil)
+       
+        } else {
+            makeAlert(title: "Error", message: "Place NAME/TYPE/ATMOSPHERE ??")
+        }
+      
+       
     }
     /*
     // MARK: - Navigation
@@ -36,4 +71,8 @@ class AddPlaceViewController: UIViewController {
     }
     */
 
+}
+
+extension AddPlaceViewController : UIImagePickerControllerDelegate , UINavigationControllerDelegate {
+    
 }

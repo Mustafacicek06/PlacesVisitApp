@@ -9,21 +9,32 @@
 /* Begin PBXBuildFile section */
 		0846C4F728AFF261007BFDE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0846C4F628AFF261007BFDE7 /* AppDelegate.swift */; };
 		0846C4F928AFF261007BFDE7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0846C4F828AFF261007BFDE7 /* SceneDelegate.swift */; };
-		0846C4FB28AFF261007BFDE7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0846C4FA28AFF261007BFDE7 /* ViewController.swift */; };
+		0846C4FB28AFF261007BFDE7 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0846C4FA28AFF261007BFDE7 /* SignUpVC.swift */; };
 		0846C4FE28AFF261007BFDE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0846C4FC28AFF261007BFDE7 /* Main.storyboard */; };
 		0846C50028AFF264007BFDE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0846C4FF28AFF264007BFDE7 /* Assets.xcassets */; };
 		0846C50328AFF264007BFDE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0846C50128AFF264007BFDE7 /* LaunchScreen.storyboard */; };
+		0846C50C28AFF481007BFDE7 /* ParseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 0846C50B28AFF481007BFDE7 /* ParseSwift */; };
+		0846C51128B005FF007BFDE7 /* PlacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0846C51028B005FF007BFDE7 /* PlacesViewController.swift */; };
+		0861936D28B017C100688A97 /* AddPlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0861936C28B017C100688A97 /* AddPlaceViewController.swift */; };
+		0861936F28B01AD500688A97 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0861936E28B01AD500688A97 /* MapViewController.swift */; };
+		7A26C9CA047ED6D9B725758B /* Pods_PlacesVisitApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 727360ADBEA3232E0D2E5F0D /* Pods_PlacesVisitApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0846C4F328AFF261007BFDE7 /* PlacesVisitApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlacesVisitApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0846C4F628AFF261007BFDE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0846C4F828AFF261007BFDE7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0846C4FA28AFF261007BFDE7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0846C4FA28AFF261007BFDE7 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
 		0846C4FD28AFF261007BFDE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0846C4FF28AFF264007BFDE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0846C50228AFF264007BFDE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0846C50428AFF264007BFDE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0846C51028B005FF007BFDE7 /* PlacesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesViewController.swift; sourceTree = "<group>"; };
+		0861936C28B017C100688A97 /* AddPlaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlaceViewController.swift; sourceTree = "<group>"; };
+		0861936E28B01AD500688A97 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		2D8851D5BC66DD0EF20D92E6 /* Pods-PlacesVisitApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlacesVisitApp.release.xcconfig"; path = "Target Support Files/Pods-PlacesVisitApp/Pods-PlacesVisitApp.release.xcconfig"; sourceTree = "<group>"; };
+		41927C6B83B814FCD7A135DD /* Pods-PlacesVisitApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlacesVisitApp.debug.xcconfig"; path = "Target Support Files/Pods-PlacesVisitApp/Pods-PlacesVisitApp.debug.xcconfig"; sourceTree = "<group>"; };
+		727360ADBEA3232E0D2E5F0D /* Pods_PlacesVisitApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlacesVisitApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +42,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0846C50C28AFF481007BFDE7 /* ParseSwift in Frameworks */,
+				7A26C9CA047ED6D9B725758B /* Pods_PlacesVisitApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +55,8 @@
 			children = (
 				0846C4F528AFF261007BFDE7 /* PlacesVisitApp */,
 				0846C4F428AFF261007BFDE7 /* Products */,
+				C9C355A1D626DF4EBF849929 /* Pods */,
+				A8A93383DA454C03BA6DEB74 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +73,33 @@
 			children = (
 				0846C4F628AFF261007BFDE7 /* AppDelegate.swift */,
 				0846C4F828AFF261007BFDE7 /* SceneDelegate.swift */,
-				0846C4FA28AFF261007BFDE7 /* ViewController.swift */,
+				0846C4FA28AFF261007BFDE7 /* SignUpVC.swift */,
+				0846C51028B005FF007BFDE7 /* PlacesViewController.swift */,
+				0861936C28B017C100688A97 /* AddPlaceViewController.swift */,
+				0861936E28B01AD500688A97 /* MapViewController.swift */,
 				0846C4FC28AFF261007BFDE7 /* Main.storyboard */,
 				0846C4FF28AFF264007BFDE7 /* Assets.xcassets */,
 				0846C50128AFF264007BFDE7 /* LaunchScreen.storyboard */,
 				0846C50428AFF264007BFDE7 /* Info.plist */,
 			);
 			path = PlacesVisitApp;
+			sourceTree = "<group>";
+		};
+		A8A93383DA454C03BA6DEB74 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				727360ADBEA3232E0D2E5F0D /* Pods_PlacesVisitApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9C355A1D626DF4EBF849929 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				41927C6B83B814FCD7A135DD /* Pods-PlacesVisitApp.debug.xcconfig */,
+				2D8851D5BC66DD0EF20D92E6 /* Pods-PlacesVisitApp.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,15 +109,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0846C50728AFF264007BFDE7 /* Build configuration list for PBXNativeTarget "PlacesVisitApp" */;
 			buildPhases = (
+				C080644A2DF0DCB0E57D8F74 /* [CP] Check Pods Manifest.lock */,
 				0846C4EF28AFF261007BFDE7 /* Sources */,
 				0846C4F028AFF261007BFDE7 /* Frameworks */,
 				0846C4F128AFF261007BFDE7 /* Resources */,
+				BDF8BCC953F795CA148823D9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = PlacesVisitApp;
+			packageProductDependencies = (
+				0846C50B28AFF481007BFDE7 /* ParseSwift */,
+			);
 			productName = PlacesVisitApp;
 			productReference = 0846C4F328AFF261007BFDE7 /* PlacesVisitApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +151,9 @@
 				Base,
 			);
 			mainGroup = 0846C4EA28AFF261007BFDE7;
+			packageReferences = (
+				0846C50A28AFF481007BFDE7 /* XCRemoteSwiftPackageReference "Parse-Swift" */,
+			);
 			productRefGroup = 0846C4F428AFF261007BFDE7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -133,12 +176,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		BDF8BCC953F795CA148823D9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlacesVisitApp/Pods-PlacesVisitApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlacesVisitApp/Pods-PlacesVisitApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PlacesVisitApp/Pods-PlacesVisitApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C080644A2DF0DCB0E57D8F74 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PlacesVisitApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0846C4EF28AFF261007BFDE7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0846C4FB28AFF261007BFDE7 /* ViewController.swift in Sources */,
+				0861936D28B017C100688A97 /* AddPlaceViewController.swift in Sources */,
+				0861936F28B01AD500688A97 /* MapViewController.swift in Sources */,
+				0846C51128B005FF007BFDE7 /* PlacesViewController.swift in Sources */,
+				0846C4FB28AFF261007BFDE7 /* SignUpVC.swift in Sources */,
 				0846C4F728AFF261007BFDE7 /* AppDelegate.swift in Sources */,
 				0846C4F928AFF261007BFDE7 /* SceneDelegate.swift in Sources */,
 			);
@@ -282,6 +370,7 @@
 		};
 		0846C50828AFF264007BFDE7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41927C6B83B814FCD7A135DD /* Pods-PlacesVisitApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +399,7 @@
 		};
 		0846C50928AFF264007BFDE7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D8851D5BC66DD0EF20D92E6 /* Pods-PlacesVisitApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -358,6 +448,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0846C50A28AFF481007BFDE7 /* XCRemoteSwiftPackageReference "Parse-Swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/parse-community/Parse-Swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0846C50B28AFF481007BFDE7 /* ParseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0846C50A28AFF481007BFDE7 /* XCRemoteSwiftPackageReference "Parse-Swift" */;
+			productName = ParseSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0846C4EB28AFF261007BFDE7 /* Project object */;
 }

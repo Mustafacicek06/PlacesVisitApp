@@ -1,5 +1,5 @@
 //
-//  AddPlaceViewController.swift
+//  DetailsViewController.swift
 //  PlacesVisitApp
 //
 //  Created by Mustafa Çiçek on 19.08.2022.
@@ -7,15 +7,8 @@
 
 import UIKit
 
-class AddPlaceViewController: UIViewController {
+class DetailsViewController: UIViewController {
 
-    @IBOutlet weak var placeNameText: UITextField!
-    
-    @IBOutlet weak var placeType: UITextField!
-    
-    @IBOutlet weak var placeAtmosphere: UITextField!
-    
-    @IBOutlet weak var imageView: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -23,9 +16,6 @@ class AddPlaceViewController: UIViewController {
     }
     
 
-    @IBAction func nextButtonClicked(_ sender: Any) {
-        self.performSegue(withIdentifier: "toMapVC", sender: nil)
-    }
     /*
     // MARK: - Navigation
 

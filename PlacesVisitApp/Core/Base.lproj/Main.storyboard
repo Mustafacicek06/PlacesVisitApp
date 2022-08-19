@@ -117,10 +117,10 @@
             </objects>
             <point key="canvasLocation" x="1940.5797101449277" y="119.86607142857142"/>
         </scene>
-        <!--View Controller-->
+        <!--Details View Controller-->
         <scene sceneID="ZeI-JB-hKi">
             <objects>
-                <viewController id="W13-eo-9DB" sceneMemberID="viewController">
+                <viewController id="W13-eo-9DB" customClass="DetailsViewController" customModule="PlacesVisitApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6Dk-Fy-hRt">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -159,6 +159,13 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="0bl-3i-FSC"/>
+                    <connections>
+                        <outlet property="detailsAtmosphereLabel" destination="djR-bL-Hdg" id="fSr-4M-Lsf"/>
+                        <outlet property="detailsImageView" destination="o14-Ui-5Qe" id="yWe-WS-vb3"/>
+                        <outlet property="detailsNameLabel" destination="hRo-4T-Vqz" id="hd2-48-fCu"/>
+                        <outlet property="detailsTypeLabel" destination="EjO-Ph-CcG" id="aqd-rJ-9Ih"/>
+                        <outlet property="mapKitView" destination="dn1-Od-sYo" id="Onp-xx-HKh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZcH-Li-LOY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

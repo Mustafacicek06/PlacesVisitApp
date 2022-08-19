@@ -73,19 +73,35 @@
 		0846C4F528AFF261007BFDE7 /* PlacesVisitApp */ = {
 			isa = PBXGroup;
 			children = (
-				0846C4F628AFF261007BFDE7 /* AppDelegate.swift */,
-				0846C4F828AFF261007BFDE7 /* SceneDelegate.swift */,
-				0846C4FA28AFF261007BFDE7 /* SignUpVC.swift */,
-				0846C51028B005FF007BFDE7 /* PlacesViewController.swift */,
-				0861936C28B017C100688A97 /* AddPlaceViewController.swift */,
-				0861936E28B01AD500688A97 /* MapViewController.swift */,
-				0875155228B021BE0027BAAF /* DetailsViewController.swift */,
-				0846C4FC28AFF261007BFDE7 /* Main.storyboard */,
+				0875155528B024820027BAAF /* Core */,
+				0875155428B0246E0027BAAF /* ViewControllers */,
 				0846C4FF28AFF264007BFDE7 /* Assets.xcassets */,
-				0846C50128AFF264007BFDE7 /* LaunchScreen.storyboard */,
 				0846C50428AFF264007BFDE7 /* Info.plist */,
 			);
 			path = PlacesVisitApp;
+			sourceTree = "<group>";
+		};
+		0875155428B0246E0027BAAF /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0846C51028B005FF007BFDE7 /* PlacesViewController.swift */,
+				0846C4FA28AFF261007BFDE7 /* SignUpVC.swift */,
+				0861936C28B017C100688A97 /* AddPlaceViewController.swift */,
+				0861936E28B01AD500688A97 /* MapViewController.swift */,
+				0875155228B021BE0027BAAF /* DetailsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		0875155528B024820027BAAF /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				0846C4F628AFF261007BFDE7 /* AppDelegate.swift */,
+				0846C4F828AFF261007BFDE7 /* SceneDelegate.swift */,
+				0846C4FC28AFF261007BFDE7 /* Main.storyboard */,
+				0846C50128AFF264007BFDE7 /* LaunchScreen.storyboard */,
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 		A8A93383DA454C03BA6DEB74 /* Frameworks */ = {
